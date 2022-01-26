@@ -76,6 +76,10 @@ public class WebCommons {
 		action.contextClick(element).build().perform();
 	}
 	
+	
+	
+	
+	
 	//Method to switch to alert 
 	public void SwitchToAlert(String action) {
 		Alert alert = driver.switchTo().alert();
